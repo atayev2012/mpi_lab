@@ -6,7 +6,7 @@ TARGET_TASK_1 = ./build/task1
 SRC_TASK_1 = ./task_1/main.c
 
 TARGET_TASK_2_ROWS = ./build/task2_rows
-SRC_TASK_2_ROWS = ./task_2/task2_rows.c
+SRC_TASK_2_ROWS = ./task_2/task2_rows.c ./task_2/task2_common.c 
 
 all: create_build_dir build_task_1 build_task_2_rows
 
