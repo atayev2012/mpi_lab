@@ -109,11 +109,11 @@ int main(int argc, char* argv[]) {
    for (i = 0; i < thread_count; i++)
       pthread_join(thread_handles[i], NULL);
    GET_TIME(finish);
-   printf("[MY] Elapsed time = %e seconds\n", finish - start);
-   printf("[MY] Total ops = %d\n", total_ops);
-   printf("[MY] member ops = %d\n", member_count);
-   printf("[MY] insert ops = %d\n", insert_count);
-   printf("[MY] delete ops = %d\n", delete_count);
+   printf("[CUSTOM] Elapsed time = %e seconds\n", finish - start);
+   printf("[CUSTOM] Total ops = %d\n", total_ops);
+   printf("[CUSTOM] member ops = %d\n", member_count);
+   printf("[CUSTOM] insert ops = %d\n", insert_count);
+   printf("[CUSTOM] delete ops = %d\n", delete_count);
 #endif
 
 #  ifdef OUTPUT
