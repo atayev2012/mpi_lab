@@ -1,5 +1,5 @@
-#ifndef LAB2_INCLUDE_RWLOCK_H_
-#define LAB2_INCLUDE_RWLOCK_H_
+#ifndef LAB2_INCLUDE_RWL_H_
+#define LAB2_INCLUDE_RWL_H_
 
 #include <pthread.h>
 #include <stdint.h>
@@ -16,11 +16,11 @@ typedef struct
 
   uint64_t r_locked_c;
   int8_t w_locked;
-  
+
 } my_rwlock_t;
 
 void rdlock(my_rwlock_t* p);
 void wrlock(my_rwlock_t* p);
 void unlock(my_rwlock_t* p);
 
-#endif /* LAB2_INCLUDE_RWLOCK_H_ */
+#endif /* LAB2_INCLUDE_RWL_H_ */
