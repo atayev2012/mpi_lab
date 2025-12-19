@@ -95,7 +95,7 @@ int main(int argc, char *argv[])
     }
 
     printf("Result in ./output.csv file\n");
-    printf("Time elapsed: %lfs | %d threads | %llu points ]\n",
+    printf("Time elapsed: %lfs | %d threads | %llu points\n",
            (finish - start), thread_count, g_npoints);
 
     free(g_mandelbrot_points_arr);
