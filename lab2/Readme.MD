@@ -18,6 +18,3 @@ wrlock блокировки чтения-записи. Апробировать 
 <img src="img/orig_rwl_threads_4.png" alt="orig_rwl_4" width="300px"> | <img src="img/custom_rwl_threads_4.png" width="300px" alt="custom_rwl_4">
 8 threads | 8 threads
 <img src="img/orig_rwl_threads_8.png" alt="orig_rwl_8" width="300px"> | <img src="img/custom_rwl_threads_8.png" width="300px" alt="custom_rwl_8">
-
-### Заключение
-На одном потоке разница незначительная. С повышением количество потоков можно заметить как сильно начинает отставать моя реализация.
