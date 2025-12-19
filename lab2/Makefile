@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -Wextra -Werror -pthread -lm
 
-TASK3_SRC=./task_3/pth_ll_rwl.c ./task_3/my_rand.c ./task_3/rwlock.c
+TASK3_SRC=./task_3/pth_ll_rwl.c ./task_3/my_rand.c ./task_3/rwl.c
 TASK3_MY_FLAGS=-DCUSTOM_RWLOCK
 TASK3_ORIG_TARGET=./build/task3_orig_rwl
 TASK3_MY_TARGET=./build/task3_my_rwl
